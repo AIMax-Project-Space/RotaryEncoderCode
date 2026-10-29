@@ -40,7 +40,7 @@ void loop() {
   // 4. Send all 4 channels
   sendIBUS(constrainedSteering, buttonValue, ibusGas, ibusBrake);
   
-  delay(10); 
+  delay(5); 
 }
 
 void updateEncoder() {
